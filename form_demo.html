@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+    <!--
+  １，如果form里没有提交按钮，则无法提交表单
+  ２．用来发起POST请求
+  ３．如果用ＧＥＴ，参数会变为查询参数。
+
+    -->
+    <a href="#">A</a>
+    <form action="user" method="POST" target="_self">
+        <input type="text" name="username">
+        <input type="text" name="password">
+        <!-- <input type="button" value="input设置button提交"> 
+
+        <input type="checkbox"  id="x"　name="loveme" value="yes"><label for="x">爱我</label>
+        <label><input type="checkbox"   name="loveme" value="no">不爱我</label> -->
+
+        <!-- <button type="button">button提交</button> -->
+        <input type="button" value="提交">
+        
+    </form>
+</body>
+</html>
